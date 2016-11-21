@@ -92,4 +92,6 @@ ENV/
 # Sublime Project Files
 *.sublime-*
 
+# DB files
+*.sqlite3
 

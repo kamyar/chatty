@@ -1,3 +1,13 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import Room, Message
+
+@admin.register(Room)
+class RoomAdmin(admin.ModelAdmin):
+    pass
+
+
+@admin.register(Message)
+class MessageAdmin(admin.ModelAdmin):
+    pass
+

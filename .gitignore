@@ -95,3 +95,6 @@ ENV/
 # DB files
 *.sqlite3
 
+# Django Static Files
+staticfiles/
+
